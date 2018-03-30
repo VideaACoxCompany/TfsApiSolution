@@ -10,7 +10,7 @@ namespace TfsApiClient.Services
             using (MailMessage mail = new MailMessage("BranchVerification@videa.tv", "johnny.chu@videa.tv")
             {
                 IsBodyHtml = true,
-                Subject = "this is a test email.",
+                Subject = "Branch Verification",
                 Body = $"{body}  <br/> Date: {DateTime.Now}"
 
             })

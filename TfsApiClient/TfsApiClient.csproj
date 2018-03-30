@@ -51,6 +51,7 @@
     <Compile Include="Entities\Repo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BranchService.cs" />
     <Compile Include="Services\CommitService.cs" />
     <Compile Include="Services\GitStatsService.cs" />
     <Compile Include="Services\HttpClientObjectService.cs" />
