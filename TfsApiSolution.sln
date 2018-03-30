@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsApiClient", "TfsApiService\TfsApiClient.csproj", "{94633343-ECD5-4B24-8DE1-6F345B174548}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsApiClient", "TfsApiClient\TfsApiClient.csproj", "{94633343-ECD5-4B24-8DE1-6F345B174548}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5023B606-7579-48EB-98F8-820B12793877}
 	EndGlobalSection
 EndGlobal
