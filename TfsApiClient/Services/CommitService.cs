@@ -1,6 +1,6 @@
 ﻿namespace TfsApiClient.Services
 {
-    class CommitService
+    public class CommitService
     {
     }
 }

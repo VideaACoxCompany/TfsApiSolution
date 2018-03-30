@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using TfsApiService.Entities;
 
-namespace TfsApiService.Services
+namespace TfsApiClient.Services
 {
     public class ProjectService
     {

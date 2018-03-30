@@ -4,7 +4,7 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace TfsApiService.Services
+namespace TfsApiClient.Services
 {
     public class HttpClientObjectService
     {

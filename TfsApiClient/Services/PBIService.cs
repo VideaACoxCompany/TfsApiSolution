@@ -1,6 +1,6 @@
-﻿namespace TfsApiService.Services
+﻿namespace TfsApiClient.Services
 {
-    class PBIService
+    public class PBIService
     {
     }
 }

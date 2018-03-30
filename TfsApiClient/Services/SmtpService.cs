@@ -5,13 +5,13 @@ namespace TfsApiClient.Services
 {
     public class SmtpService
     {
-        public void SendEmail()
+        public void SendEmail(string body)
         {
             using (MailMessage mail = new MailMessage("BranchVerification@videa.tv", "johnny.chu@videa.tv")
             {
                 IsBodyHtml = true,
                 Subject = "this is a test email.",
-                Body = "this is my test email body" + DateTime.Now
+                Body = $"{body}  <br/> Date: {DateTime.Now}"
 
             })
             {
