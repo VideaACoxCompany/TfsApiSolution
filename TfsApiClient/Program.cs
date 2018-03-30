@@ -23,18 +23,8 @@ namespace TfsApiClient
         {
             try
             {
-                //Display all projects
-                //ProjectService projectService = new ProjectService();
-                //var projects = await projectService.GetResult();
-                //projects.Value.ForEach(i => Console.WriteLine(i.Name));
-
-                RepoService repoService = new RepoService();
-
-                //Dispaly all repos
-                //var repos = await repoService.GetResult();
-                //repos.Value.ForEach(i => Console.WriteLine(i.Name + " " + i.Id));
-
-
+                var repoService = new RepoService();
+                
                 var repoNameList = new List<string>
                 {
                     "vom",
