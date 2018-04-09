@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Net.Mail;
 
 namespace TfsApiClient.Services
@@ -7,7 +8,8 @@ namespace TfsApiClient.Services
     {
         public void SendEmail(string body)
         {
-            using (MailMessage mail = new MailMessage("BranchVerification@videa.tv", "johnny.chu@videa.tv")
+            string toAddress = ConfigurationManager.AppSettings.Get("ToAddress");
+            using (MailMessage mail = new MailMessage("BranchVerification@videa.tv", toAddress)
             {
                 IsBodyHtml = true,
                 Subject = "Branch Verification",
